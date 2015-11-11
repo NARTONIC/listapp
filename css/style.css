@@ -1,0 +1,81 @@
+
+*{
+    font-family: 'Indie Flower', cursive;
+}
+.top{
+	background-color: black;
+	color: white;
+	height: 74px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.top .reset {
+    float: right;
+    margin: -40px 116px;
+}
+
+.app {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.app .content {
+    padding-top: 80px;
+}
+
+.app .content h5{
+	 font-size: 30px;
+}
+
+.app .content input[type="text"] {
+    border-radius: 20px;
+    height: 62px;
+    width: 391px;
+    font-size: 40px;
+}
+.app .content .button {
+    border-radius: 54px;
+    background-color: greenyellow;
+    border: 0;
+    height: 60px;
+    width: 171px;
+    font-size: 40px;
+}
+
+.app .content .button:hover{
+	background-color: green;
+	color:white;
+    cursor:pointer;
+}
+
+.app .content .products .list{
+    list-style: none;
+    text-align: left;
+    width: 71%;
+    font-size: 40px;
+    color: midnightblue;
+    float: right;
+}
+
+.app .content .products .list .delete{
+  border-radius: 54px;
+    background-color: tomato;
+    border: 0;
+    height: 60px;
+    width: 61px;
+    font-size: 32px;
+    color: whitesmoke;
+}
+
+.app .content .products .list .delete:hover{
+  cursor: pointer;
+}
+
